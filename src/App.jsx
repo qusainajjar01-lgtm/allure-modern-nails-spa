@@ -266,8 +266,8 @@ function App() {
           </p>
 
           <p>Longview, Texas</p>
-          <p>Monday - Saturday: 11 AM - 8 PM</p>
-          <p>Sunday: 12 PM - 6 PM</p>
+          <p>Monday - Saturday: 9 AM - 8 PM</p>
+          <p>Sunday: 11 AM - 6 PM</p>
         </div>
       </section>
 
