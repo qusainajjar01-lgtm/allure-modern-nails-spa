@@ -532,3 +532,61 @@ body {
     height: 145px;
   }
 }
+.hero-offer {
+  margin: 28px 0 24px;
+  max-width: 430px;
+  padding: 18px 24px;
+  border: 1px solid rgba(226, 186, 65, 0.65);
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.72),
+    rgba(35, 28, 12, 0.58)
+  );
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.32),
+              0 0 28px rgba(226, 186, 65, 0.16);
+  backdrop-filter: blur(6px);
+}
+
+.hero-offer .offer-label {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-offer h2 {
+  margin: 0;
+  color: #e2ba41;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-offer p {
+  margin: 8px 0 0;
+  color: #f5e7b8;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .hero-offer {
+    max-width: 100%;
+    padding: 16px 18px;
+    margin: 24px 0 22px;
+  }
+
+  .hero-offer h2 {
+    font-size: 2.6rem;
+  }
+
+  .hero-offer p {
+    font-size: 0.95rem;
+  }
+}

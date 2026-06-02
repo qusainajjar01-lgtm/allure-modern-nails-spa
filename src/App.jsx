@@ -151,7 +151,11 @@ function App() {
             Premium nails, pedicures, lashes, waxing, facials, and spa treatments
             designed for a clean, elegant, and relaxing beauty experience.
           </p>
-
+<div className="hero-offer">
+  <span className="offer-label">Under New Management</span>
+  <h2>20% OFF</h2>
+  <p>Selected services for a limited time</p>
+</div>
           <div className="heroButtons">
             <a href="tel:+19036639992" className="goldButton">
               Call Now
