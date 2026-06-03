@@ -132,6 +132,23 @@ function App() {
             <a href="#location">Location</a>
             <a href="#contact">Contact</a>
           </div>
+          <div className="social-links">
+  <a
+    href="https://www.instagram.com/alluremodernlongview/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Instagram
+  </a>
+
+  <a
+    href="https://www.facebook.com/profile.php?id=61590650064998"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Facebook
+  </a>
+</div>
 
           <a className="phoneButton" href="tel:+19036639992">
             {phone}
